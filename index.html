@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hao Ming Restaurant - Casual dining outlet offering delicious Chinese and Indian food in Kadri, Karnataka.">
+    <title>Hao Ming Restaurant | Chinese & Indian Cuisine</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">Hao Ming</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#details">Details</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <div class="badge">Chinese & Indian Cuisine</div>
+            <h1>A Symphony of Flavors</h1>
+            <p class="tagline">A casual dining outlet offering a wide variety of delicious and affordable food.</p>
+            <div class="actions">
+                <a href="#details" class="btn primary"><i class="fa-solid fa-location-dot"></i> Get Directions</a>
+                <a href="#about" class="btn secondary">Discover More</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2>Welcome to Hao Ming</h2>
+                        <div class="separator center"></div>
+                        <p>Hao Ming is a casual dining outlet that offers a wide variety of delicious and affordable
+                            food. The menu features a variety of Chinese and Western dishes, including noodles, rice,
+                            and stir-fries. The restaurant also offers a selection of drinks, including tea, coffee, and
+                            soft drinks. The atmosphere is relaxed and inviting, with comfortable seating perfect for
+                            amazing dining experiences.</p>
+                        <div class="price-rating">
+                            <span class="price"><strong>Price:</strong> <span class="rupee">₹₹</span></span>
+                            <span class="rating"><i class="fa-solid fa-star"></i> <strong>4.1/5</strong> (707
+                                reviews)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Popular Dishes</h2>
+                    <div class="separator center"></div>
+                    <p class="section-subtitle">Discover the authentic flavors that our guests keep coming back for.</p>
+                </div>
+
+                <div class="dish-gallery">
+                    <div class="dish-card">
+                        <div class="dish-img-wrapper">
+                            <img src="images/dish1.jpg" alt="Golden Thread Crispy" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Golden Thread Crispy</h3>
+                            <p>Crispy golden noodles wrapped around tender meat, served with our signature sweet & spicy
+                                dip.</p>
+                        </div>
+                    </div>
+
+                    <div class="dish-card">
+                        <div class="dish-img-wrapper">
+                            <img src="images/dish2.jpg" alt="Classic Manchow Soup" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Classic Manchow Soup</h3>
+                            <p>A comforting, dark, and spicy soup topped with a generous handful of crispy fried
+                                noodles.</p>
+                        </div>
+                    </div>
+
+                    <div class="dish-card">
+                        <div class="dish-img-wrapper">
+                            <img src="images/dish3.jpg" alt="Emperor's Fried Rice Combo" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Emperor's Fried Rice Combo</h3>
+                            <p>Flavorful egg fried rice accompanied by a rich, saucy, and savory red gravy.</p>
+                        </div>
+                    </div>
+
+                    <div class="dish-card">
+                        <div class="dish-img-wrapper">
+                            <img src="images/dish4.jpg" alt="Spicy Chili Chicken" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Spicy Chili Chicken</h3>
+                            <p>Wok-tossed chicken bites with bold spices, fresh bell peppers, and scallions.</p>
+                        </div>
+                    </div>
+
+                    <div class="dish-card">
+                        <div class="dish-img-wrapper">
+                            <img src="images/dish5.jpg" alt="Dragon Fire Lollipops" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3>Dragon Fire Lollipops</h3>
+                            <p>Crispy, deeply spiced chicken wings tossed in our vibrant and fiery red sauce.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="full-menu" class="full-menu-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Full Menu</h2>
+                    <div class="separator center"></div>
+                    <p class="section-subtitle">Explore our extensive selection of authentic flavors. Use the search or
+                        filter to find your favorites quickly.</p>
+                </div>
+
+                <div class="menu-tabs-container">
+                    <div class="menu-controls">
+                        <div class="search-box">
+                            <i class="fa-solid fa-search"></i>
+                            <input type="text" id="menu-search"
+                                placeholder="Search for dishes (e.g. Noodles, Paneer)...">
+                        </div>
+                        <div class="diet-toggles">
+                            <label class="toggle-label">
+                                <input type="checkbox" id="veg-toggle">
+                                <span class="toggle-slider veg"></span>
+                                Veg Only
+                            </label>
+                        </div>
+                    </div>
+                    <div id="menu-tabs" class="menu-tabs"></div>
+                </div>
+
+                <div id="menu-items-container" class="menu-items-list"></div>
+            </div>
+        </section>
+
+        <section id="details" class="details-section">
+            <div class="container">
+                <div class="info-cards">
+                    <div class="card">
+                        <div class="icon"><i class="fa-solid fa-clock"></i></div>
+                        <h3>Opening Hours</h3>
+                        <p>Open Today</p>
+                        <p class="highlight">Closes at 22:30</p>
+                        <p>Enjoy our extended evening hours.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <h3>Contact Us</h3>
+                        <p>Call for reservations</p>
+                        <p class="highlight">0824 221 8693</p>
+                        <p>Dine-in or Takeaway</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3>Location</h3>
+                        <p>10, K M C Mercara Trunk Road</p>
+                        <p>Kadri, Karnataka 575002</p>
+                        <p class="highlight"><a href="https://maps.google.com/?q=Hao+Ming+Restaurant+Kadri"
+                                target="_blank"
+                                style="color:var(--primary-color);text-decoration:none;transition:all 0.3s ease;"
+                                onmouseover="this.style.color='#a00e21'"
+                                onmouseout="this.style.color='var(--primary-color)'">View on Map</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews-section">
+            <div class="container">
+                <h2>Loved by Our Guests</h2>
+                <div class="separator center"></div>
+                <div class="review-platforms">
+                    <div class="platform">
+                        <div class="platform-logo zomato">Zomato</div>
+                        <div class="platform-score">4.1<span>/5</span></div>
+                        <div class="platform-count">707 reviews</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                    <div class="platform">
+                        <div class="platform-logo magicpin">magicpin</div>
+                        <div class="platform-score">4.4<span>/5</span></div>
+                        <div class="platform-count">15 reviews</div>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Hao Ming</div>
+                <p>&copy; 2024 Hao Ming Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+
+</html>
